@@ -23,13 +23,14 @@ where
 Test
 ====
 Hide data.zip inside container.bmp, extract this data into new file data1.zip 
-and compare data.zip and data1.zip/
+and compare data.zip and data1.zip :
 
 C:\AndrewK\MyProjects2\Embedder\x64\Release>Embedder.exe in container.bmp data.zip 500 37
 
 C:\AndrewK\MyProjects2\Embedder\x64\Release>Embedder.exe out container.bmp data1.zip 500 37
 
 C:\AndrewK\MyProjects2\Embedder\x64\Release>fc data.zip data1.zip
+
 Comparing files data.zip and DATA1.ZIP
 FC: no differences encountered
 
