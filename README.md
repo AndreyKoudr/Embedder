@@ -12,8 +12,11 @@ Invocation
 
 where
   filename      - file to embed data into
+  
   filename_data - file which contains bytes to be embedded
+  
   filepos       - file position in filename to start embedding data
+  
   XORbyte       - byte to xor all embedded data
 
 (2) extracting : extract data from filename into new filename_data (must not exist)
@@ -32,6 +35,7 @@ C:\AndrewK\MyProjects2\Embedder\x64\Release>Embedder.exe out container.bmp data1
 C:\AndrewK\MyProjects2\Embedder\x64\Release>fc data.zip data1.zip
 
 Comparing files data.zip and DATA1.ZIP
+
 FC: no differences encountered
 
 Compiler
