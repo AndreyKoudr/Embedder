@@ -8,7 +8,9 @@ Invocation
 ==========
 (1) embedding : embed data into filename
 
+```
 >embedder in filename filename_data filepos XORbyte
+```
 
 where
   filename      - file to embed data into
@@ -21,7 +23,9 @@ where
 
 (2) extracting : extract data from filename into new filename_data (must not exist)
 
+```
 >embedder out filename filename_data filepos XORbyte
+```
 
 Test
 ====
